@@ -1,3 +1,5 @@
 
 all:
-	./sh14.sh
+	python pr_flow.py rendering  -g -q 
+clean:
+	rm -rf ./*.rpt ./*.log ./vivado*  ./.Xil
